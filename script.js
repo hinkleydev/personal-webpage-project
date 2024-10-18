@@ -6,4 +6,5 @@
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear
 
-console.log("Hello, World!");
+/* Update year */
+document.querySelector("#current-year").innerHTML = new Date().getFullYear();

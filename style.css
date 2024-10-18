@@ -74,6 +74,10 @@ nav a:hover {
   background-color: #00B4D8;
 }
 
+.experience li {
+  list-style: disclosure-closed;
+}
+
 /* Underlines the active navigation link. */
 [aria-current="page"] {
   text-decoration: underline;

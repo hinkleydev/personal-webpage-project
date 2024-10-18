@@ -78,6 +78,16 @@ nav a:hover {
   list-style: disclosure-closed;
 }
 
+.project {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.project-image {
+  width: 10em;
+}
+
 /* Underlines the active navigation link. */
 [aria-current="page"] {
   text-decoration: underline;

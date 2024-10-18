@@ -85,7 +85,8 @@ nav a:hover {
 }
 
 .project-image {
-  width: 10em;
+  align-self: center;
+  max-width: 10em;
 }
 
 /* Underlines the active navigation link. */
